@@ -1,0 +1,98 @@
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
+.logo{
+        width: 150px;
+        border-radius: 50%;
+}
+
+.headerlogo{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: "New Amsterdam", sans-serif; /* muda a fonte */
+    font-weight: bold; /* deixa em negrito */
+    padding-right: 150px; 
+
+}   
+    
+    
+.centralizar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dados {
+    background-color: rgb(1, 142, 20); /* altera cor do fundo */
+    font-family: "Nanum Gothic Coding", monospace; 
+    width: 30%; /* aumenta a largura */
+    height: 500px; /* aumenta a altura */
+    margin-left: auto; /* espaçamento para fora do elemento */
+    margin-right: auto; /* centraliza para a direita */
+    border-radius: 100px; /* arredonda a borda */
+    padding-left: 100px;  /* se move para a esquerda com a borda */
+    padding-top: 10px; /* se move com a borda para cima (só que o espaço vai para baixo) */
+    margin-bottom: 200px;
+    margin-top: 19px; /* espaçamento para cima */
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px gray
+}
+
+.dados2 {
+    display: flex; /* Deixa todo os elementos em uma linha */
+    flex-direction: column; /* ele faz coluna com ás linha */
+    width: 75%; /* aumenta a largura */
+    
+}
+
+.rodape {
+    display: flex;
+    font-family: "New Amsterdam", sans-serif;
+    background-color: black;
+    color: white;
+    align-items: center; /* align items alinha verticalmente, fica no meio do elemento */
+    justify-content: center; /* justify-comente alinha orizontalmente, alinha para o meio */
+    
+}
+
+.whatsapp-button {
+    background-color: rgb(192, 3, 3);
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    border: 1.8px solid black;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.orcamento {
+    background-color: rgb(224, 159, 6);
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    border: 1.8px solid black;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.orcamentoh2 {
+    font-family: "Baskervville SC", serif;
+
+}
+
+.dadoslabel {
+    font-weight: bold;
+    font-size: 20px; /* aumenta o tamanho da letra */ 
+}
+
+.dadosinput {
+    border-radius: 20px;
+    padding-left: 15px;
+}
